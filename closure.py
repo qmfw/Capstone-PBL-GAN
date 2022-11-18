@@ -50,3 +50,22 @@ print(times5(3))
 
 # Output: 30
 print(times5(times3(2)))
+
+
+
+
+def inc(x):
+    return x + 1
+
+def dec(x):
+    return x - 1
+
+def operate(func, x):
+    result = func(x)
+    return result
+
+# 4
+operate(inc,3)
+# 2
+operate(dec,3)
+
